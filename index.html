@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ebdd6978f6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Kirti Gupta</title>
+  <link rel = "icon" href ="logo.png" type = "image/x-icon">
+</head>
+
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="/index.html" class="link">KG.</a>
+    </h3>
+
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1>Hi, I am <span class="about__name">Kirti Gupta.</span></h1>
+      <h2 class="about__role">Aspiring Front-End Developer.</h2>
+      <p class="about__desc">
+        I'm a third-year Computer Science and Engineering student at Guru Gobind Singh Indraprastha University. I
+        started learning web development in my second year, especially front-end development.
+        <br><br>
+        Currently, I'm learning React and its framework. I usually take online courses and understand code
+        from other people's projects to find best practices in writing code and improve my skills. I enjoy learning
+        something that I'm passionate about.
+      </p>
+
+      <div class="about__contact center">
+        <a target="_blank" href="Kirti-Gupta Resume-upload.pdf">
+          <span class="btn btn--outline">Resume</span>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+                <div class="project">
+          <h3>Techbytes</h3>
+          <p class="project__description">
+            Techbytes is created to get technological updates, implementing functionalities such as:
+            Searching, Pagination, Deletion, Data Fetching via API
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">ReactJs</li>
+            <li class="project__stack-item">API</li>
+          </ul>
+
+          <a target="_blank" href="https://github.com/Kirti-Gupta12/techbytes" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="https://techbyte.netlify.app/" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Netflix Clone</h3>
+          <p class="project__description">
+            Netflix Clone is not a replica, and it doesn’t have all the features of Netflix website. It’s a similar
+            version of Netflix with
+            my own design touch.
+          </p>
+          <!-- <br> -->
+          <ul class="project__stack">
+            <li class="project__stack-item">Bootstrap</li>
+            <li class="project__stack-item">SCSS</li>
+            <li class="project__stack-item">ReactJs</li>
+            <li class="project__stack-item">Firebase</li>
+          </ul>
+
+          <a target="_blank" href="https://github.com/Kirti-Gupta12/netflixClone" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="https://netflixcloneit.netlify.app/" aria-label="live preview"
+            class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Todo List</h3>
+          <p class="project__description">
+            Todo List, created to beat the work overload, implementing features to
+            add, delete and check the tasks<br><br><br>
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">SASS</li>
+            <li class="project__stack-item">TypeScript</li>
+            <li class="project__stack-item">React</li>
+          </ul>
+
+          <a target="_blank" href="https://github.com/Kirti-Gupta12/todoList" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="https://63222d2838ac0e53b39c120c--kirti-todoslist.netlify.app/"
+            aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Calculator</h3>
+          <p class="project__description">
+            Created a responsive react calculator with toggling themes.
+          </p><br><br><br><br>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">ReactJs</li>
+          </ul>
+
+          <a target="_blank" href="https://github.com/Kirti-Gupta12/React-Calculator" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="https://630b1f94e769771a482c1294--kirti-s-react-calculator.netlify.app/"
+            aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Random Quotes Generator</h3>
+          <p class="project__description">
+            Website generates various quotes along with quotemaster. Various implemented features are : speech synthesization, copy to clipboard, tweeting the same.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a target="_blank" href="https://github.com/Kirti-Gupta12/Random-Quotes" aria-label="source code"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="https://kirti-gupta12.github.io/Random-Quotes/" aria-label="live preview"
+            class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+        <li class="skills__list-item btn btn--plain">Bootstrap</li>
+        <li class="skills__list-item btn btn--plain">Tailwind</li>
+        <li class="skills__list-item btn btn--plain">JavaScript</li>
+        <li class="skills__list-item btn btn--plain">ReactJs</li>
+        <li class="skills__list-item btn btn--plain">API</li>
+        <li class="skills__list-item btn btn--plain">Firebase</li>
+        <li class="skills__list-item btn btn--plain">C++</li>
+        <li class="skills__list-item btn btn--plain">Git</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <div class="contact-space">
+        <a target="_blank" href="https://github.com/Kirti-Gupta12" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fa fa-github"></i>
+        </a>
+
+        <a target="_blank" href="https://www.linkedin.com/in/kirti-gupta-a2b68b205/" aria-label="linkedin"
+          class="link link--icon">
+          <i aria-hidden="true" class="fa fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a>
+      &#169; 2023 by Kirti Gupta.
+      All rights reserved. <br>
+      Template by <a href="https://github.com/rajshekhar26/cleanfolio-minimal" class="link footer__link">Raj Shekhar</a>
+    </a>
+  </footer>
+
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
